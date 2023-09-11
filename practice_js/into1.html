@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function Show() {
+            var first, sec, result;
+            first = Number(document.getElementById('first').value);
+            sec = Number(document.getElementById('sec').value);
+            result = first + sec;
+            document.getElementById('result').value = result;
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        first number <input id="first">
+        Second number <input id="sec">
+        <button onclick="Show()">Click</button>
+        Sum is <input id="result">
+        Subtraction is <input id="sub">
+    </div>
+</body>
+
+</html>
+
+<!-- <script>
+    const baseValue = prompt("Enter the base value :-");
+    const heightValue = prompt("Enter the height value :-");
+    const radiusCircle =prompt("Enter the radiusCircle value :-");
+    const squreSide = prompt("Enter the squreSide value :-");
+    const surArea = prompt("Enter the surArea value :-");
+
+    // calculate the area
+    const areaValue = (baseValue * heightValue) / 2;
+    const circleArea =(3.14 *radiusCircle*radiusCircle);
+    const periCircle = (2*3.14* radiusCircle);
+    const areaSqure= (squreSide*squreSide);
+    const cube =(6* surArea *surArea);
+
+    document.write(
+        `The area of the triangle is ${areaValue}`
+    );
+    document.write("<br/>");
+    document.write(
+        `The area of the circle is ${circleArea}`
+    );
+    document.write("<br/>");
+    document.write(
+        `The perimeter of the circle is ${periCircle}`
+    );
+    document.write("<br/>");
+    document.write(
+        `The area of the squre is ${areaSqure}`
+    );
+    document.write("<br/>");
+    document.write(
+        `The area of the cube is ${cube}`
+    );
+</script> -->

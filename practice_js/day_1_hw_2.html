@@ -1,0 +1,19 @@
+<script>
+    function checkOddEven(number) {
+        if (number % 2 === 0) {
+            return "Even";
+        } else {
+            return "Odd";
+        }
+    }
+
+    let userInput = parseInt(prompt("Enter a number:"));
+
+    if (!isNaN(userInput)) {
+        let result = checkOddEven(userInput);
+        console.log(`The number is ${result}.`);
+    } else {
+        console.log("Invalid input. Please enter a valid number.");
+    }
+
+</script>

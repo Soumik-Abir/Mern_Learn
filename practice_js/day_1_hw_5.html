@@ -1,0 +1,78 @@
+<script>
+    let choice = parseInt(prompt("Enter a number (1-7):"));
+    let num1, num2;
+
+    if (!isNaN(choice) && choice >= 1 && choice <= 7) {
+        switch (choice) {
+            case 1:
+                num1 = parseFloat(prompt("Enter the first number:"));
+                num2 = parseFloat(prompt("Enter the second number:"));
+                if (!isNaN(num1) && !isNaN(num2)) {
+                    console.log(`Sum: ${num1 + num2}`);
+                } else {
+                    console.log("Invalid input for numbers.");
+                }
+                break;
+
+            case 2:
+                num1 = parseFloat(prompt("Enter the first number:"));
+                num2 = parseFloat(prompt("Enter the second number:"));
+                if (!isNaN(num1) && !isNaN(num2)) {
+                    console.log(`Difference: ${num1 - num2}`);
+                } else {
+                    console.log("Invalid input for numbers.");
+                }
+                break;
+
+            case 3:
+                num1 = parseFloat(prompt("Enter the first number:"));
+                num2 = parseFloat(prompt("Enter the second number:"));
+                if (!isNaN(num1) && !isNaN(num2)) {
+                    console.log(`Product: ${num1 * num2}`);
+                } else {
+                    console.log("Invalid input for numbers.");
+                }
+                break;
+
+            case 4:
+                num1 = parseFloat(prompt("Enter the dividend:"));
+                num2 = parseFloat(prompt("Enter the divisor:"));
+                if (!isNaN(num1) && !isNaN(num2) && num2 !== 0) {
+                    console.log(`Quotient: ${num1 / num2}`);
+                } else {
+                    console.log("Invalid input for numbers or division by zero.");
+                }
+                break;
+
+            case 5:
+                let base = parseFloat(prompt("Enter the base of the triangle:"));
+                let height = parseFloat(prompt("Enter the height of the triangle:"));
+                if (!isNaN(base) && !isNaN(height) && base > 0 && height > 0) {
+                    console.log(`Area of the triangle: ${0.5 * base * height}`);
+                } else {
+                    console.log("Invalid input for base or height.");
+                }
+                break;
+
+            case 6:
+                let num = parseInt(prompt("Enter a number:"));
+                if (!isNaN(num)) {
+                    if (num % 2 === 0) {
+                        console.log("Even");
+                    } else {
+                        console.log("Odd");
+                    }
+                } else {
+                    console.log("Invalid input for number.");
+                }
+                break;
+
+            case 7:
+                console.log("Wrong input.");
+                break;
+        }
+    } else {
+        console.log("Invalid choice. Please enter a number between 1 and 7.");
+    }
+
+</script>

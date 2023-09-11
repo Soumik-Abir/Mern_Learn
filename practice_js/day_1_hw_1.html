@@ -1,0 +1,22 @@
+<script>
+    function checkNumber(number) {
+    if (number > 0) {
+        return "Positive";
+    } else if (number < 0) {
+        return "Negative";
+    } else {
+        return "Zero";
+    }
+}
+
+// Example usage:
+let userInput = parseFloat(prompt("Enter a number:"));
+
+if (!isNaN(userInput)) {
+    let result = checkNumber(userInput);
+    console.log(`The number is ${result}.`);
+} else {
+    console.log("Invalid input. Please enter a valid number.");
+}
+
+</script>
