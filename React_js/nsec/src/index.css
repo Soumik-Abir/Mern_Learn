@@ -1,0 +1,256 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* .card1{
+  height: 150px;
+  width: 100%;
+  float: left;
+  background-color: red;
+}
+.card2{
+  height: 500px;
+  width: 40%;
+  float: left;
+  background-color: yellow;
+}
+.card3{
+  height: 500px;
+  width: 10%;
+  float: left;
+  background-color: blue;
+}
+.card4{
+  height: 500px;
+  width: 10%;
+  float: left;
+  background-color: slateblue;
+}
+.card5{
+  height: 500px;
+  width: 40%;
+  float: left;
+  background-color: yellowgreen;
+}
+.card6{
+  height: 150px;
+  width: 50%;
+  float: left;
+  background-color: green;
+}
+.card7{
+  height: 150px;
+  width: 50%;
+  float: left;
+  background-color: violet;
+} */
+
+/* .box{
+
+  height: 500px;
+  width: 900px;
+  border: solid;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.box1{
+  display: flex;
+  justify-content: space-around;
+}
+
+#b1{
+  height: 50px;
+  width: 270px;
+  background-color: brown;
+  border: solid black;
+
+  margin-top: 10px;
+}
+#b2{
+  height: 50px;
+  width: 270px;
+  background-color: grey;
+  border: solid yellow;
+  margin-top: 10px;
+}
+#b3{
+  height: 50px;
+  width: 270px;
+  background-color: yellowgreen;
+  border: solid yellow;
+  margin-top: 10px;
+}
+
+.box2{
+  display: flex;
+}
+#c1{
+  height: 140px;
+  width: 200px;
+  background-color: green;
+  border: solid yellow;
+  margin-top: 10px;
+}
+#c2{
+  height: 140px;
+  width: 500px;
+  background-color: orangered;
+  border: solid yellow;
+  margin-top: 10px;
+}
+#c3{
+  height: 140px;
+  width: 200px;
+  background-color: greenyellow;
+  border: solid yellow;
+  margin-top: 10px;
+}
+
+.box3{
+  display: flex;
+  justify-items: center;
+}
+
+#d1{
+  height: 275px;
+  width: 220px;
+  background-color: purple;
+  border: solid yellow;
+}
+#d2{
+  height: 275px;
+  width: 220px;
+  background-color: white;
+  border: solid yellow;
+}
+#d3{
+  height: 275px;
+  width: 220px;
+  background-color: aqua;
+  border: solid yellow;
+}
+#d4{
+  height: 275px;
+  width: 220px;
+  background-color: darkmagenta;
+  border: solid yellow;
+} */
+
+/* .rom{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.rom1{
+  height: 100px;
+  width: 100px;
+  background-color: gray;
+  margin: auto;
+}
+.rom2{
+  display: flex;
+  margin: auto;
+}
+
+#r1{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+#r2{
+  height: 100px;
+  width: 100px;
+  background-color: darkmagenta;
+}
+#r3{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.rom3{
+  display: flex;
+  margin: auto;
+}
+#r4{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+#r5{
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+#r6{
+  height: 100px;
+  width: 100px;
+  background-color: violet;
+}
+#r7{
+  height: 100px;
+  width: 100px;
+  background-color: slateblue;
+}
+#r8{
+  height: 100px;
+  width: 100px;
+  background-color: yellowgreen;
+} */
+
+.main{
+  margin: 10px;
+}
+
+.first{
+  display: flex;
+}
+
+.second{
+  display: flex;
+}
+
+#a1{
+  height: 100px;
+  width: 14.28%;
+  background-color: black;
+  margin-left: 57.2%;
+}
+#a2{
+  height: 100px;
+  width: 14.28%;
+  background-color: white;
+}
+#a3{
+  height: 100px;
+  width: 14.28%;
+  background-color: red;
+}
+#a4{
+  height: 100px;
+  width: 14.28%;
+  background-color: yellow;
+}
+#a5{
+  height: 100px;
+  width: 14.28%;
+  background-color: black;
+}
+#a6{
+  height: 100px;
+  width: 14.28%;
+  background-color: green;
+}
+#a7{
+  height: 100px;
+  width: 14.28%;
+  background-color: pink;
+}
+#a8{
+  height: 100px;
+  width: 14.28%;
+  background-color: purple;
+}
