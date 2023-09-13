@@ -1,7 +1,6 @@
 body{
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
 }
 /* .card1{
   height: 150px;
@@ -261,11 +260,42 @@ body{
 
 
 
-.first{
+/* .first{
   height: 100px;
   background-color: white;
 }
 .sec{
   height: 100px;
   background-color: black;
+} */
+
+
+.menu{
+  height: 60px;
+  width: 100%;
+  background-color: aqua;
+  padding-top: 10px;
+}
+.box{
+  float: right;
+  margin-right: 60px;
+}
+
+.menu nav ul li{
+  display: inline-block;
+}
+
+.menu nav ul li .nav{
+  color: #fff;
+  font-size: 25px;
+  margin-left: 30px;
+  text-decoration: none;
+  padding: 3px 5px;
+}
+
+.menu nav ul li .nav:hover{
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  transition: all 1s;
 }
