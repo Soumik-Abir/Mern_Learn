@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Pattern from './Components/Pattern';
+import Boots from './Components/Boots';
+// import Pattern from './Components/Pattern';
 // import Card from './Components/Card';
 // import Box from './Components/Box';
 // import Rom from './Components/Rom';
@@ -8,7 +9,7 @@ import Pattern from './Components/Pattern';
 function App() {
   return (
     <div>
-      <Pattern/>
+      <Boots/>
     </div>
   );
 }

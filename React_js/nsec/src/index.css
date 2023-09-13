@@ -201,7 +201,11 @@ body{
   background-color: yellowgreen;
 } */
 
-.main{
+
+/* .main{
+
+
+
   margin: 10px;
 }
 
@@ -253,4 +257,15 @@ body{
   height: 100px;
   width: 14.28%;
   background-color: purple;
+} */
+
+
+
+.first{
+  height: 100px;
+  background-color: white;
+}
+.sec{
+  height: 100px;
+  background-color: black;
 }
