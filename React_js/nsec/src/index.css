@@ -270,7 +270,7 @@ body{
 } */
 
 
-.menu{
+/* .menu{
   height: 60px;
   width: 100%;
   background-color: aqua;
@@ -298,4 +298,39 @@ body{
   color: #000;
   border-radius: 5px;
   transition: all 1s;
+} */
+
+.menu-btn .btn{
+  margin-left: 40px;
+}
+
+.card1{
+  background-color: ffff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card1 .card1-left{
+  width: 30%;
+  margin: 5px;
+}
+
+.card1 .card1-right{
+  width: 70%;
+}
+
+.card1 .card1-title{
+  margin-left: 10px;
+}
+
+.card1 .card1-right .catagory{
+  margin-left: 10px;
+}
+
+.card1 .card1-right .btn{
+  margin-top: 10px;
+  margin-right: 10px;
+  justify-content: space-between;
+}
+.card1 .card1-right .badge{
+  margin-right: 20px;
+  border: none;
 }

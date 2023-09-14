@@ -1,11 +1,12 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import About from "./Components/About";
-import Contact from "./Components/Contact";
-import Gallery from "./Components/Gallery";
-import Blog from "./Components/Blog";
-import Menu from "./Components/Menu";
+import FoodItem from "./Components/FoodItem";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import About from "./Components/About";
+// import Contact from "./Components/Contact";
+// import Gallery from "./Components/Gallery";
+// import Blog from "./Components/Blog";
+// import Menu from "./Components/Menu";
 // import Boots from './Components/Boots';
 // import Pattern from './Components/Pattern';
 // import Card from './Components/Card';
@@ -15,7 +16,7 @@ import Menu from "./Components/Menu";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Menu />}></Route>
           <Route exact path="/About" element={<About />}></Route>
@@ -23,7 +24,9 @@ function App() {
           <Route exact path="/Gallery" element={<Gallery />}></Route>
           <Route exact path="/Blog" element={<Blog />}></Route>
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
+
+      <FoodItem/>
     </div>
   );
 }
